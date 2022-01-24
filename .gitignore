@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+Day1/dataset/archive/
+Day1/dataset/archive/
+Day1/dataset/
