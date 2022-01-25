@@ -191,3 +191,39 @@ This article provides one of the simplest ways to collect data and train an obje
 *   When we are done collecting and annotating our data, it is considerably faster to pull them from GitHub instead of copying them from google drive. This can help reduce training times dramatically.
 *   Even though ImageAI is an incredible tool that is extremely easy to use compared to other tools and frameworks, using a lower-level framework such as PyTorch and Tensorflow could provide more training speed and flexibility.
 *   Image segmentation would be more useful for automatic litter collection using robotics. It provides higher accuracy as it applies per pixel detection and the good part is that there is an abundance of [datasets](https://github.com/AgaMiko/waste-datasets-review) available.
+
+### **Google Colab Links**
+
+[https://colab.research.google.com/drive/1VG6VwqxyIJH9YMuixvUEqznfsUSjCdsD?usp=sharing](https://colab.research.google.com/drive/1VG6VwqxyIJH9YMuixvUEqznfsUSjCdsD?usp=sharing)
+
+[https://colab.research.google.com/drive/1o-CcNk1A1ENaf6XwJ4YAd9lPQkfHo2tJ?usp=sharing](https://colab.research.google.com/drive/1o-CcNk1A1ENaf6XwJ4YAd9lPQkfHo2tJ?usp=sharing)
+
+#### **References**
+
+\[1\] Jambeck, Jenna R., et al. “Plastic waste inputs from land into the ocean.” _Science_ 347.6223 (2015): 768–771.
+
+\[2\] “Ocean Plastics Pollution.” _Ocean Plastics Pollution_, [https://www.biologicaldiversity.org/campaigns/ocean\_plastics](https://www.biologicaldiversity.org/campaigns/ocean_plastics/.)
+
+\[3\] “Ocean Pollution: 11 Facts You Need to Know.” _Ocean Pollution — 11 Facts You Need to Know_, [https://www.conservation.org/stories/ocean-pollution-11-facts-you-need-to-know](https://www.conservation.org/stories/ocean-pollution-11-facts-you-need-to-know)
+
+\[4\] [GES, MSFD. “Identifying Sources of Marine Litter.” (2016)](https://mcc.jrc.ec.europa.eu/documents/201703030936.pdf)
+
+\[5\] “Our Oceans, Seas and Coasts.” _Marine Litter — GES — Environment — European Commission_, [](https://ec.europa.eu/environment/marine/good-environmental-status/descriptor-10/index_en.htm.) [https://ec.europa.eu/environment/marine/good-environmental-status/descriptor-10/index\_en.htm](https://ec.europa.eu/environment/marine/good-environmental-status/descriptor-10/index_en.htm)
+
+\[6\] Fletcher, Natalie. “A Comparison of Classification vs Detection vs Segmentation Models.” _Clarifai_, [https://www.clarifai.com/blog/class](https://www.clarifai.com/blog/classification-vs-detection-vs-segmentation-models-the-differences-between-them-and-how-each-impact-your-results.)[i](https://www.clarifai.com/blog/classification-vs-detection-vs-segmentation-models-the-differences-between-them-and-how-each-impact-your-results.)[fication-vs-detection-vs-segmentation-models-the-differences-between-them-and-how-each-impact-your-results](https://www.clarifai.com/blog/classification-vs-detection-vs-segmentation-models-the-differences-between-them-and-how-each-impact-your-results.)
+
+\[7\] [https://github.com/AgaMiko/waste-datasets-review](https://github.com/AgaMiko/waste-datasets-review)
+
+\[8\] Brownlee, Jason. “A Gentle Introduction to Transfer Learning for Deep Learning.” _Machine Learning Mastery_, 16 Sept. 2019, [https://machinelearningmastery.com/transfer-learning-for-deep-learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/.)
+
+#### **Tools**
+
+[https://github.com/gereleth/jupyter-bbox-widget](https://github.com/gereleth/jupyter-bbox-widget)
+
+[https://github.com/jfilter/split-folders](https://github.com/jfilter/split-folders)
+
+[https://github.com/OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI)
+
+[https://github.com/AndrewCarterUK/pascal-voc-writer](https://github.com/AndrewCarterUK/pascal-voc-writer)
+
+[https://github.com/elisemercury/Duplicate-Image-Finder](https://github.com/elisemercury/Duplicate-Image-Finder)
