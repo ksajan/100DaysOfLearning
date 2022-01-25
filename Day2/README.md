@@ -1,19 +1,8 @@
 Plastic Waste Detection with Deep Learning
 ==========================================
 
-![](https://secure.gravatar.com/avatar/0549e3c28f5182ade3fa87adca74a433?s=32&d=mm&r=g) [ Floris Alexandrou](https://learnopencv.com/author/floris/)
-
-January 25, 2022 [Leave a Comment](https://learnopencv.com/plastic-waste-detection-with-deep-learning/#disqus_thread)
-
-[Deep Learning](https://learnopencv.com/category/deep-learning/) [Object Detection](https://learnopencv.com/category/object-detection/)
-
-January 25, 2022 By [Leave a Comment](https://learnopencv.com/plastic-waste-detection-with-deep-learning/#disqus_thread)
-
-[
-
 ![Blue Globe Photo by Louis Reed on Unsplash](https://learnopencv.com/wp-content/uploads/2022/01/Blue-Globe-Photo-by-Louis-Reed-on-Unsplash-1024x1024.jpg "Blue-Globe-Photo-by-Louis-Reed-on-Unsplash – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Blue-Globe-Photo-by-Louis-Reed-on-Unsplash.jpg)
 
 Photo by [Louis Reed](https://unsplash.com/@_louisreed?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
@@ -34,24 +23,14 @@ The problem doesn’t end there.
 
 Due to prolonged exposure to the sun, water, and air, the plastic is eventually broken down into microplastic which is eaten by the fish, other sea mammals, and birds. Each year, [12,000 to 24,000 tons of plastic are consumed by fish](https://www.biologicaldiversity.org/campaigns/ocean_plastics "12,000 to 24,000 tons of plastic are consumed by fish") in the North Pacific, causing intestinal injury and death, as well as passing plastic up the food chain to larger fish, marine mammals, and human seafood diners \[2\]. 
 
-[
-
-![](https://learnopencv.com/wp-content/uploads/2021/05/2__opencv_02-2.jpg "2__opencv_02 – LearnOpenCV ")
-
-](http://opencv.org/courses/)
-
-**Official OpenCV Courses**  
-Start your exciting journey from an absolute Beginner to Mastery in AI, Computer Vision & Deep Learning!
-
-[Learn More](https://opencv.org/courses/)
 
 When microplastics eventually dissolve over a period of 400 years, [toxins are released in most cases](https://www.conservation.org/stories/ocean-pollution-11-facts-you-need-to-know "toxins are released in most cases"), further polluting the sea \[3\].
 
-[
+
 
 ![Photo by Naja Bertolt Jensen on Unsplash](https://learnopencv.com/wp-content/uploads/2022/01/Plastic-Waste-in-oceans-Photo-by-Naja-Bertolt-Jensen-on-Unsplash.jpg "Plastic-Waste-in-oceans-Photo-by-Naja-Bertolt-Jensen-on-Unsplash – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Plastic-Waste-in-oceans-Photo-by-Naja-Bertolt-Jensen-on-Unsplash.jpg)
+
 
 Photo by [Naja Bertolt Jensen](https://unsplash.com/@naja_bertolt_jensen?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
@@ -72,7 +51,6 @@ These 3 tasks are image classification, object detection, and image segmentation
 
 ![Spatial Localization and Detection ](https://learnopencv.com/wp-content/uploads/2022/01/Photo-by-Fei-Fei-Li-Andrej-Karpathy-Justin-Johnson-2016-cs231n-Lecture-8 — Slide-8-Spatial-Localization-and-Detection.jpg "Photo-by-Fei-Fei-Li-Andrej-Karpathy-Justin-Johnson-2016-cs231n-Lecture-8 — Slide-8-Spatial-Localization-and-Detection – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Photo-by-Fei-Fei-Li-Andrej-Karpathy-Justin-Johnson-2016-cs231n-Lecture-8 — Slide-8-Spatial-Localization-and-Detection.jpg)
 
 Photo by [Fei-Fei Li, Andrej Karpathy & Justin Johnson (2016) cs231n, Lecture 8 — Slide 8, _Spatial Localization and Detection_](http://cs231n.stanford.edu/slides/2016/winter1516_lecture8.pdf)
 
@@ -103,21 +81,15 @@ In case you did not find a dataset to solve your specific problem then you can b
 
 Web scraping in general is a technique used to extract all kinds of data from websites. In this project, we use web scraping as a means to collect images for our dataset. Before you use the scraper, I recommend doing a real Google search to see if the images it returns are relevant to your problem. The following code demonstrates how to extract photos from a Google search for “plastic bottle”.
 
-[
 
 ![Image Scrapper Code](https://learnopencv.com/wp-content/uploads/2022/01/Part-of-the-Image-Scraper-code.png "Part-of-the-Image-Scraper-code – LearnOpenCV ")
-
-](https://learnopencv.com/wp-content/uploads/2022/01/Part-of-the-Image-Scraper-code.png)
 
 Part of the Image Scraper code (Image by Author)
 
 Once the scraper is done with the images, we then run a script to delete any duplicate images that may have appeared in our google search before proceeding with the annotation.
 
-[
-
 ![Code for Deletion of duplicate images ](https://learnopencv.com/wp-content/uploads/2022/01/Deletion-of-duplicate-images-code-Image-by-Author.png "Deletion-of-duplicate-images-code-Image-by-Author – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Deletion-of-duplicate-images-code-Image-by-Author.png)
 
 Deletion of duplicate images code (Image by Author)
 
@@ -125,11 +97,9 @@ Deletion of duplicate images code (Image by Author)
 
 Before starting with the annotations, I highly recommend watching this short [YouTube video](https://youtu.be/pJaM06FG-wQ) from Roboflow for some tips on how to annotate images correctly for object detection. For this project, I have annotated my images with the main 4 classes of litter, plastic, metal, paper, and glass. The following image presents the annotation tool which is used within Google Colab.
 
-[
+
 
 ![Demonstration of Image Annotation tool](https://learnopencv.com/wp-content/uploads/2022/01/Demonstration-of-the-annotation-tool-Image-by-Author.png "Demonstration-of-the-annotation-tool-Image-by-Author – LearnOpenCV ")
-
-](https://learnopencv.com/wp-content/uploads/2022/01/Demonstration-of-the-annotation-tool-Image-by-Author.png)
 
 Demonstration of the [annotation tool](https://github.com/gereleth/jupyter-bbox-widget)
 
@@ -138,11 +108,8 @@ Demonstration of the [annotation tool](https://github.com/gereleth/jupyter-bbox-
 
 After we’re done building our dataset, we then split our data into train, validation, and test subsets. Usually, the splitting is done with a ratio of 70% training data and 15% validation and test data (70–15–15 for short). We could also split them with 60–20–20 or even 50–25–25, it depends on a variety of factors but the best ratio for a specific problem is generally found through trial and error.
 
-[
-
 ![Code For Dataset splitting using the split-folders library](https://learnopencv.com/wp-content/uploads/2022/01/Dataset-splitting-code-using-the-split-folders-library-Image-by-Author.png "Dataset-splitting-code-using-the-split-folders-library-Image-by-Author – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Dataset-splitting-code-using-the-split-folders-library-Image-by-Author.png)
 
 Dataset splitting code using the [split-folders library](https://github.com/jfilter/split-folders)
 
@@ -150,11 +117,7 @@ For an easy-to-understand and implement solution, we will use the imageAI librar
 
 Training a pre-trained model is a technique commonly known as **transfer learning** and is considered a good practice among machine learning practitioners \[8\]. After preparing the data and downloading our model, the training takes just 5 lines of code.
 
-[
-
 ![Code for training model using ImageAI](https://learnopencv.com/wp-content/uploads/2022/01/Model-training-code-using-ImageAI-Image-by-Author.png "Model-training-code-using-ImageAI-Image-by-Author – LearnOpenCV ")
-
-](https://learnopencv.com/wp-content/uploads/2022/01/Model-training-code-using-ImageAI-Image-by-Author.png)
 
 Model training code using [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 
@@ -163,21 +126,14 @@ Deep Learning **Model Testing and Evaluation**
 
 Finally, the most fun part of our process is testing. Once we are done training our model, we can test it using images from our test set or even run it on videos. Testing the model with imageAI takes 6 lines of code with 2 additional lines to display the image and its corresponding bounding boxes. 
 
-[
-
 ![Code for testing Model](https://learnopencv.com/wp-content/uploads/2022/01/Model-testing-code-using-ImageAI-Image-by-Author.png "Model-testing-code-using-ImageAI-Image-by-Author – LearnOpenCV ")
 
-](https://learnopencv.com/wp-content/uploads/2022/01/Model-testing-code-using-ImageAI-Image-by-Author.png)
 
 Model testing code using [ImageAI](https://github.com/OlafenwaMoses/ImageAI)
 
 Running the code on a testing image produces the following image output. 
 
-[
-
 ![Image with Model predictions](https://learnopencv.com/wp-content/uploads/2022/01/Image-with-model-predictions-Image-by-Author.jpg "Image-with-model-predictions-Image-by-Author – LearnOpenCV ")
-
-](https://learnopencv.com/wp-content/uploads/2022/01/Image-with-model-predictions-Image-by-Author.jpg)
 
 Image with model predictions
 
