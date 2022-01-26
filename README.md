@@ -12,3 +12,10 @@ Learning or doing something everyday
  Article on Plastic Waste Detection with Deep Learning [Link to Article](https://learnopencv.com/plastic-waste-detection-with-deep-learning/?ck_subscriber_id=272183573)
  
 ![Photo by Naja Bertolt Jensen on Unsplash](https://learnopencv.com/wp-content/uploads/2022/01/Plastic-Waste-in-oceans-Photo-by-Naja-Bertolt-Jensen-on-Unsplash.jpg "Plastic-Waste-in-oceans-Photo-by-Naja-Bertolt-Jensen-on-Unsplash – LearnOpenCV ")
+
+
+## Day 3
+ Watch Tutorial on FCN model for segmentation. In this particular tutorial they used [kaggle Dataset](https://www.kaggle.com/sakshaymahna/kittiroadsegmentation) for road and and did segmentation on it. 
+ And the notebook can be find [here](https://www.kaggle.com/sakshaymahna/fully-convolutional-network) which was used in the original tutorial.
+ 
+ I learned about the various techniques used for upsampling and how they are used. I also learned about the method used to convert a VGGNET Architecture to get segmentation mask. Here in particular we used last three pooling layers to add the information with upsampling to get the mask for segmentation task.
